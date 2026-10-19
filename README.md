@@ -18,13 +18,12 @@ AIと協力して、さまざまなソフトウェア開発を進めるための
 3. 新しいプロジェクトでは、共通ルールと必要なテンプレートをAIへの指示に利用します。
 4. プロジェクト固有の技術構成、要件、制約は別途指定します。
 
-Project Start Templates
+## Project Start Templates
 
 Use these templates when starting a new project with AI.
 
-日本語版：プロジェクト開始テンプレート
-
-English: Project Start Prompt
+- [日本語版：プロジェクト開始テンプレート](./templates/PROJECT_START_PROMPT.md)
+- [English: Project Start Prompt](./templates/PROJECT_START_PROMPT.en.md)
 
 Choose the language you prefer, copy the template into your AI conversation, and fill in the project-specific information.
 
