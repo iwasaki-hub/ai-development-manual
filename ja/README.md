@@ -17,12 +17,20 @@ AIと協力して、さまざまなソフトウェア開発プロジェクトを
 5. 大きな作業の完了時や会話を中断するときは、「進捗・引き継ぎ記録テンプレート」を更新します。
 6. GitHub Desktopを使い、意味のある作業単位でコミットします。
 
+## 関連ドキュメント
+
+- [AI開発マニュアル](./AI_DEVELOPMENT_MANUAL.md)：AIと協力して開発する際の共通ルール
+- [プロジェクト開始手順書](./PROJECT_START_GUIDE.md)：新しいプロジェクトを始める際の具体的な手順
+- [日本語版プロジェクト開始テンプレート](../templates/PROJECT_START_PROMPT.md)：AIへの開始指示に使用するテンプレート
+
 ## 推奨リポジトリ構成
 
 ```text
-ai-development-manual-ja/
-├── README.md
-├── AI_DEVELOPMENT_MANUAL.md
+ai-development-manual/
+└── ja/
+    ├── README.md
+    ├── AI_DEVELOPMENT_MANUAL.md
+    └── PROJECT_START_GUIDE.md 
 └── .gitignore
 ```
 
