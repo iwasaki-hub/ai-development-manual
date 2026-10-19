@@ -6,7 +6,7 @@ AIと協力して、さまざまなソフトウェア開発プロジェクトを
 
 - `README.md`：このファイル。マニュアルの概要と使い方
 - `AI_DEVELOPMENT_MANUAL.md`：共通指示、作業テンプレート、チェックリスト
-- `.gitignore`：OS・エディタなどが作る不要ファイルを除外する設定
+- ルートの `.gitignore`：OS・エディタなどが作る不要ファイルを除外する設定
 
 ## 使い方
 
@@ -28,11 +28,19 @@ AIと協力して、さまざまなソフトウェア開発プロジェクトを
 
 ```text
 ai-development-manual/
-└── ja/
-    ├── README.md
-    ├── AI_DEVELOPMENT_MANUAL.md
-    └── PROJECT_START_GUIDE.md 
-└── .gitignore
+├── README.md
+├── AGENTS.md
+├── .gitignore
+├── ja/
+│   ├── README.md
+│   ├── AI_DEVELOPMENT_MANUAL.md
+│   └── PROJECT_START_GUIDE.md
+├── en/
+│   ├── README.md
+│   └── AI_DEVELOPMENT_MANUAL.md
+└── templates/
+    ├── PROJECT_START_PROMPT.md
+    └── PROJECT_START_PROMPT.en.md
 ```
 
 ## 運用ルール

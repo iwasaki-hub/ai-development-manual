@@ -35,6 +35,7 @@ Choose your preferred language, copy the prompt into your AI conversation, and f
 ai-development-manual/
 ├── README.md
 ├── AGENTS.md
+├── .gitignore
 ├── ja/
 │   ├── README.md
 │   ├── AI_DEVELOPMENT_MANUAL.md
