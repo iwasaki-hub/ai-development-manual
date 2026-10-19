@@ -9,13 +9,27 @@ assistance.
     project brief, task templates, handoff notes, Git workflow, and
     checklists.
 
+## Project start prompt
+
+Use the [English Project Start Prompt](../templates/PROJECT_START_PROMPT.en.md)
+to start either a new or an existing project. Fill in what you know; leave
+undecided fields blank and discuss important unknowns with the AI. Do not
+include actual passwords, tokens, or private keys.
+
+For an existing project, provide the repository or working directory and
+let the AI inspect its instructions (such as `AGENTS.md`), README, relevant
+code, and Git status. For a new project, use the prompt to clarify the goal,
+users, scope, constraints, and acceptance criteria.
+
 ## How to use this manual
 
 ### For a new project
 
-1.  Copy the common instructions from **Section 2** into the opening
-    message of your AI development chat.
-2.  Fill out the **Project Brief** in Section 3.
+1.  Use the [English Project Start Prompt](../templates/PROJECT_START_PROMPT.en.md)
+    as the opening instruction. Follow Section 2 of the manual for
+    additional collaboration guidance.
+2.  Fill out the **Project Brief** in Section 3 as information becomes
+    available; discuss important unknowns instead of guessing.
 3.  Use the universal checklist in Section 7 to track progress.
 4.  Select the relevant task template in Section 4 for each task.
 5.  Update the handoff record in Section 5 before pausing or changing
@@ -23,8 +37,9 @@ assistance.
 
 ### For an existing project
 
-1.  Read the project's current documentation and inspect its code and
-    Git status.
+1.  Use the [English Project Start Prompt](../templates/PROJECT_START_PROMPT.en.md).
+    Read the project's instructions (such as `AGENTS.md`) and current
+    documentation, and inspect its code and Git status.
 2.  Record the existing decisions and constraints in a project brief.
 3.  Apply the common instructions without overriding established
     project-specific rules.
@@ -61,7 +76,7 @@ adaptations needed by that application.
 
 ## Important
 
-This package prepares files for you to add to GitHub; it does not create
+This manual and its prompts provide reusable guidance; they do not create
 a GitHub repository or upload anything automatically. Review the files,
-then create a repository with GitHub Desktop and publish it when you're
-ready.
+then use your chosen Git client to create or publish a repository when
+you are ready.
