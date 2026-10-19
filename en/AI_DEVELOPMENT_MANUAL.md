@@ -28,14 +28,15 @@ Follow these principles:
     and evidence clearly.
 6.  **Verify claims.** Never report a test, command, deployment, or
     change as completed unless it was actually verified.
-7.  **Protect data and secrets.** Never expose credentials, tokens,
-    private keys, or sensitive user data.
+7.  **Protect data and secrets.** Never disclose credentials, tokens,
+    private keys, or sensitive user data to unauthorized people or
+    destinations.
 8.  **Record decisions.** Keep project requirements, important technical
     decisions, and progress up to date.
 9.  **Reuse successful workflows.** Turn recurring tasks into templates
     and improve them when failures reveal gaps.
-10. **Keep the human in control.** Ask before consequential,
-    destructive, costly, public, or security-sensitive actions.
+10. **Keep the human in control.** Follow the confirmation rules in
+    Section 2 for consequential actions.
 
 ## 2. Standard AI Collaboration Instructions
 
@@ -74,10 +75,26 @@ explanation to my experience.
     security, performance, and maintainability where relevant.
 -   Never invent file contents, command output, test results, or
     deployment status.
--   Do not expose secrets. Use environment variables and safe
-    configuration practices.
--   Do not perform destructive or externally visible actions without
-    appropriate confirmation.
+-   Never disclose secrets or sensitive user data to unauthorized people
+    or systems. When handling them for necessary processing, restrict
+    access and sharing to authorized parties and use only the minimum
+    necessary data. Minimize on-screen display and output to logs or
+    records, and include only what is necessary. Never include
+    credentials in source control. Store credentials using environment
+    variables or other safe configuration practices.
+-   Before changing authentication or permissions, assess which users
+    will be affected and the access scope that will change.
+-   Before a destructive action, confirm its scope, affected data or
+    systems, and recovery method.
+-   Before a public or external action, confirm the destination or
+    audience, the content or change being exposed, and its impact.
+-   Before an action that incurs cost, confirm the amount, whether
+    charges recur, and the authorized budget and scope.
+-   If the user explicitly requested the action and its scope, and no
+    new material risk or uncertainty has arisen, do not ask for
+    redundant confirmation. Ask before proceeding if the action exceeds
+    the requested scope, is unclear, or presents a newly identified
+    material risk.
 
 ### Verification
 
